@@ -7,6 +7,7 @@ use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Support\Facades\Hash;
 use Tymon\JWTAuth\Contracts\JWTSubject;
+use Jenssegers\Mongodb\Eloquent\HybridRelations;    //It is used to relate mongo and mysql.
 
 class User extends Authenticatable implements JWTSubject
 {
@@ -56,5 +57,24 @@ class User extends Authenticatable implements JWTSubject
 
     public function setNameAttribute($value) {
         $this->attributes['name'] = ucfirst($value);
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function logs()
+    {
+        return $this->hasMany(Log::class)
+            ->orderBy('created_at');
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function blogs()
+    {
+        return $this->hasMany(Blog::class)
+        ->orderBy('released_at')
+        ->orderByDesc('created_at');
     }
 }

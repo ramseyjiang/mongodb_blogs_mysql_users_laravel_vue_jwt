@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        // 'Figtest\Model' => 'Figtest\Policies\ModelPolicy',
+        'Figtest\Models\Blog' => 'Figtest\Policies\BlogPolicy',
     ];
 
     /**

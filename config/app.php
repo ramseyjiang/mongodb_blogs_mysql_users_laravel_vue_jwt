@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Uoelr'),
+    'name' => env('APP_NAME', 'Figtest'),
 
     /*
     |--------------------------------------------------------------------------
@@ -175,6 +175,7 @@ return [
         Figtest\Providers\EventServiceProvider::class,
         Figtest\Providers\TelescopeServiceProvider::class,
         Figtest\Providers\RouteServiceProvider::class,
+        Jenssegers\Mongodb\MongodbServiceProvider::class,
 
     ],
 
@@ -226,6 +227,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'Mongo' => Jenssegers\Mongodb\MongodbServiceProvider::class,
 
     ],
 
