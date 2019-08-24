@@ -1,6 +1,6 @@
 <?php
 
-namespace Spafs\Providers;
+namespace Figtest\Providers;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        // 'Spafs\Model' => 'Spafs\Policies\ModelPolicy',
+        // 'Figtest\Model' => 'Figtest\Policies\ModelPolicy',
     ];
 
     /**

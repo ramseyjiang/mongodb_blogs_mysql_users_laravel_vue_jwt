@@ -1,8 +1,8 @@
 <?php
 
-namespace Spafs\Http\Controllers\Auth;
+namespace Figtest\Http\Controllers\Auth;
 
-use Spafs\Http\Controllers\Controller;
+use Figtest\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class ResetPasswordController extends Controller

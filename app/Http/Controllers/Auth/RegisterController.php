@@ -1,15 +1,15 @@
 <?php
 
-namespace Spafs\Http\Controllers\Auth;
+namespace Figtest\Http\Controllers\Auth;
 
-use Spafs\User;
-use Spafs\Http\Controllers\Controller;
+use Figtest\User;
+use Figtest\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
-use Spafs\Http\Requests\UserRegisterRequest;
+use Figtest\Http\Requests\UserRegisterRequest;
 use Illuminate\Auth\Events\Registered;
-use Spafs\Services\UserService;  
+use Figtest\Services\UserService;  
 
 class RegisterController extends Controller
 {
@@ -52,7 +52,7 @@ class RegisterController extends Controller
     /**
      * It is used to rewrite a register function in RegistersUsers.
      *
-     * @param  Spafs\Http\Requests\UserRegisterRequest  $request
+     * @param  Figtest\Http\Requests\UserRegisterRequest  $request
      * @return \Illuminate\Http\Response
      */
     public function register(UserRegisterRequest $request)

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spafs\Interfaces;
+namespace Figtest\Interfaces;
 
 interface UserInterface
 {

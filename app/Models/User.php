@@ -1,6 +1,6 @@
 <?php
 
-namespace Spafs\Models;
+namespace Figtest\Models;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spafs\Http\Middleware;
+namespace Figtest\Http\Middleware;
 
 use Illuminate\Auth\Middleware\Authenticate as Middleware;
 

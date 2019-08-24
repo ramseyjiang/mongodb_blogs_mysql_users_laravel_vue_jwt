@@ -3,7 +3,7 @@
 namespace Tests;
 
 use Illuminate\Contracts\Console\Kernel;
-use Spafs\Models\User;
+use Figtest\Models\User;
 
 trait CreatesApplication
 {

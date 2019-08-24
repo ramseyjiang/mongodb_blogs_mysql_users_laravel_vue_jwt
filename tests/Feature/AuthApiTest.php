@@ -5,7 +5,7 @@ namespace Tests\Feature;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Http\Response;
-use Spafs\Models\User;
+use Figtest\Models\User;
 
 class AuthApiTest extends TestCase
 {

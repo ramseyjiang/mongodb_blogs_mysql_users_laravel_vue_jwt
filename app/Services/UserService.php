@@ -1,9 +1,9 @@
 <?php
 
-namespace Spafs\Services;
+namespace Figtest\Services;
 
-use Spafs\Interfaces\UserInterface;
-use Spafs\Models\User;
+use Figtest\Interfaces\UserInterface;
+use Figtest\Models\User;
 
 class UserService implements UserInterface
 {

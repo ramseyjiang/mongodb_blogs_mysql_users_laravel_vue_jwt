@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => Spafs\Models\User::class,
+            'model' => Figtest\Models\User::class,
         ],
 
         // 'users' => [

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spafs\Http\Middleware;
+namespace Figtest\Http\Middleware;
 
 use Illuminate\Cookie\Middleware\EncryptCookies as Middleware;
 

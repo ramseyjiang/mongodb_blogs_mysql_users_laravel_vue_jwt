@@ -1,6 +1,6 @@
 <?php
 
-namespace Spafs\Providers;
+namespace Figtest\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Broadcast;

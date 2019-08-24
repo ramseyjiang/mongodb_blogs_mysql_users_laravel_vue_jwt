@@ -1,6 +1,6 @@
 <?php
 
-namespace Spafs\Providers;
+namespace Figtest\Providers;
 
 use Laravel\Telescope\Telescope;
 use Illuminate\Support\Facades\Gate;

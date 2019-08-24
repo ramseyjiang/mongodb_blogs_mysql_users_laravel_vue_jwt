@@ -1,6 +1,6 @@
 <?php
 
-namespace Spafs\Http\Requests;
+namespace Figtest\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

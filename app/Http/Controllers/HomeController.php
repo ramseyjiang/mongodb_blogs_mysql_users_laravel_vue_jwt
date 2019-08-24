@@ -1,6 +1,6 @@
 <?php
 
-namespace Spafs\Http\Controllers;
+namespace Figtest\Http\Controllers;
 
 use Illuminate\Http\Request;
 

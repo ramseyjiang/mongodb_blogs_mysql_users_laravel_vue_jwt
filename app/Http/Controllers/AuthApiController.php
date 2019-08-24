@@ -1,11 +1,11 @@
 <?php
 
-namespace Spafs\Http\Controllers;
+namespace Figtest\Http\Controllers;
 
 use Illuminate\Support\Facades\Auth;
-use Spafs\Http\Requests\UserRegisterRequest;
-use Spafs\Http\Requests\UserLoginRequest;
-use Spafs\Services\UserService;  
+use Figtest\Http\Requests\UserRegisterRequest;
+use Figtest\Http\Requests\UserLoginRequest;
+use Figtest\Services\UserService;  
 
 class AuthApiController extends Controller
 {

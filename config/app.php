@@ -169,12 +169,12 @@ return [
         /*
          * Application Service Providers...
          */
-        Spafs\Providers\AppServiceProvider::class,
-        Spafs\Providers\AuthServiceProvider::class,
-        // Spafs\Providers\BroadcastServiceProvider::class,
-        Spafs\Providers\EventServiceProvider::class,
-        Spafs\Providers\TelescopeServiceProvider::class,
-        Spafs\Providers\RouteServiceProvider::class,
+        Figtest\Providers\AppServiceProvider::class,
+        Figtest\Providers\AuthServiceProvider::class,
+        // Figtest\Providers\BroadcastServiceProvider::class,
+        Figtest\Providers\EventServiceProvider::class,
+        Figtest\Providers\TelescopeServiceProvider::class,
+        Figtest\Providers\RouteServiceProvider::class,
 
     ],
 

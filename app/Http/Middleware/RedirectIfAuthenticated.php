@@ -1,6 +1,6 @@
 <?php
 
-namespace Spafs\Http\Middleware;
+namespace Figtest\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

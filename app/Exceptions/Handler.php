@@ -1,6 +1,6 @@
 <?php
 
-namespace Spafs\Exceptions;
+namespace Figtest\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;

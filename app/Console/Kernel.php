@@ -1,6 +1,6 @@
 <?php
 
-namespace Spafs\Console;
+namespace Figtest\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;

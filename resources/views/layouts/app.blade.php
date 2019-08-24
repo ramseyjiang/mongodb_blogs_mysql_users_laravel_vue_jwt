@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Spafs') }}</title>
+    <title>{{ config('app.name', 'Figtest') }}</title>
 
     <!-- Scripts -->
     <script src="{{ mix('/js/manifest.js') }}" defer></script>

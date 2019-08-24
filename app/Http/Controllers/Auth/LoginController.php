@@ -1,10 +1,10 @@
 <?php
 
-namespace Spafs\Http\Controllers\Auth;
+namespace Figtest\Http\Controllers\Auth;
 
-use Spafs\Http\Controllers\Controller;
+use Figtest\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
-use Spafs\Http\Requests\UserLoginRequest;
+use Figtest\Http\Requests\UserLoginRequest;
 
 class LoginController extends Controller
 {
@@ -53,7 +53,7 @@ class LoginController extends Controller
     /**
      * Rewrite login function in AuthenticatesUsers class for username or password login.
      *
-     * @param  Spafs\Http\Requests\UserLoginRequest  $request
+     * @param  Figtest\Http\Requests\UserLoginRequest  $request
      * @return \Illuminate\Http\RedirectResponse|\Illuminate\Http\Response|\Illuminate\Http\JsonResponse
      *
      * @throws \Illuminate\Validation\ValidationException

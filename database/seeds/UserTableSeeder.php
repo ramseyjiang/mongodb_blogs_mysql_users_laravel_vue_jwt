@@ -11,7 +11,7 @@ class UserTableSeeder extends Seeder
      */
     public function run()
     {
-        $admin = factory(\Spafs\Models\User::class)->create([
+        $admin = factory(\Figtest\Models\User::class)->create([
             'name' => 'admin',
             'username' => 'admin',
             'email' => 'admin@qq.com',
