@@ -19,7 +19,7 @@
 <p>Step13: npm run test (If it works fine, it means frontend unittests work.)</p>
 <p>You also can do git commit and git push in your command, to make sure when you do commit or push, it will run frontend unitest first.</p>
 
-<p>If you wanna to learn how to do this project step by step, you can follow steps under below.</p>
+<h4>If you wanna to learn how to do this project step by step, you can follow steps under below.</h4>
 <p>This readme only describes how to install and config this project, if you wanna to know the base platform how to build it, please follow this link "https://github.com/ramseyjiang/SPA_Laravel_JWT_Vue_Fullstack"</p>
 
 <p>All steps under below are base on the fullstack you have learnt.</p>
