@@ -13,6 +13,11 @@
 				{{ form.name }}
 			</b-form-input>
 		</b-col>
+		<b-form-row>
+			<b-col sm="2"> &nbsp; &nbsp; Creater: {{ blogs.createrName }} </b-col>
+			<b-col sm="3"> Create time: {{ blogs.created_at }} </b-col>
+			<b-col sm="3"> Update time: {{ blogs.updated_at }} </b-col>
+		</b-form-row>
 		<b-col sm="12">
 			<label>Blog content</label>
 		</b-col>
