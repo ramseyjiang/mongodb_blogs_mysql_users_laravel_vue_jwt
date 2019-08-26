@@ -76,7 +76,7 @@ export default {
 	methods: {
 		getBlog() {
 			axios
-				.get('/blogs/show/' + this.blogId)
+				.get(baseUrl + '/blogs/show/' + this.blogId)
 				.then(response => {
 					this.blogs = response.data;
 					this.form.name = this.blogs.name;
@@ -93,7 +93,7 @@ export default {
 			};
 
 			axios
-				.post('/blogs/store', data)
+				.post(baseUrl + '/blogs/store', data)
 				.then(response => {
 					this.blogs = response.data;
 					this.$router.push('blogs');
@@ -112,7 +112,7 @@ export default {
 			};
 
 			axios
-				.put('/blogs/update/' + this.blogId, data)
+				.put(baseUrl + '/blogs/update/' + this.blogId, data)
 				.then(response => {
 					this.blogs = response.data;
 					this.$router.push('blogs');

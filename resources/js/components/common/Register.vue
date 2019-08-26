@@ -157,10 +157,10 @@ export default {
 	methods: {
 		register() {
 			axios
-				.post('/register', this.form)
+				.post(baseUrl + '/register', this.form)
 				.then(res => {
 					localStorage.access_token = res.data.access_token;
-					location.href = '/dashboard';
+					location.href = baseUrl + '/dashboard';
 				})
 				.catch(err => {
 					if (err.response.data.errors.email) {

@@ -211,7 +211,7 @@ export default {
 	methods: {
 		getBlogs() {
 			axios
-				.get('/blogs/index')
+				.get(baseUrl + '/blogs/index')
 				.then(response => {
 					this.blogs = response.data;
 					this.totalRows = this.blogs.length; // Set the initial number of blogs
@@ -222,7 +222,7 @@ export default {
 		},
 		deleteBlog(id) {
 			axios
-				.delete('/blogs/delete/' + id)
+				.delete(baseUrl + '/blogs/delete/' + id)
 				.then(response => {
 					this.blogs = response.data;
 					this.totalRows = this.blogs.length;
