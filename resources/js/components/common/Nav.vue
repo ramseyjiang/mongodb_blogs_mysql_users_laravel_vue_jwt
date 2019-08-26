@@ -77,7 +77,7 @@ export default {
 			axios.post(baseUrl + '/logout').then(res => {
 				localStorage.removeItem('access_token');
 				// If use this.$router.push('/'); it needs to use transfer data between components.
-				location.href = '/';
+				location.href = baseUrl + '/';
 			});
 		},
 	},
