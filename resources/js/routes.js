@@ -17,7 +17,7 @@ Vue.component('BlogList', BlogList);
 Vue.component('Blog', Blog);
 
 // Routes
-const routes = [
+export default [
 	{
 		path: '/',
 		name: '/',
@@ -67,12 +67,3 @@ const routes = [
 		props: false,
 	},
 ];
-
-const router = new VueRouter({
-	history: true,
-	mode: 'history',
-	fallback: true,
-	routes,
-});
-
-export default router;

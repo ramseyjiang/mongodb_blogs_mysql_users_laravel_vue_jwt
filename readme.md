@@ -1,4 +1,8 @@
-<h5>User Story: 1. The default page is the bloglist page, whether a user login or not, the blogs always show; 2. If a user login, he only can create, update, delete his own blogs; 3. If a user does not login, he only can view blogs. 4. If an admin user login, he can create, update, delete all users blogs. The admin user's username is admin, user's email is admin@qq.com, password is 12345678. You can use username or email to login</h5>
+<h5>User Story: 1. The default page is the bloglist page, whether a user login or not, the blogs always show; 2. If a user login, he only can create, update, delete his own blogs; 3. If a user does not login, he only can view blogs. 4. If an admin user login, he can create, update, delete all users blogs. </h5>
+
+<h5>The admin user's username is admin, user's email is admin@qq.com, password is 12345678. You can use username or email to login</h5>
+
+<h5>The test user's username is test, user's email is test@qq.com, password is 12345678. You can use username or email to login</h5>
 
 <h4>This project is built backend by Laravel and frontend by Vue. Users tabls is used MYSQL still, Blogs Table is used MongoDB. Both frontend and backend have been built unittests. Backend unittest is built by phpunit. Frontend unittest is built by Jest. The JWT is included in this project. </h4>
 
